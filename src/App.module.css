@@ -1,0 +1,26 @@
+.createTaskDiv {
+  display: flex;
+  justify-content: center;
+  gap: 0.625rem;
+  transform: translateY(-50%);
+  width: 46rem;
+  margin: 0 auto;
+  margin-bottom: 2.65rem;
+}
+
+.taskAddInput {
+  width: 39.875rem;
+  height: 3.375rem;
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  background: var(--gray-500);
+  /* font-family: ; */
+  font-size: 1rem;
+  padding-left: 0.75rem;
+  color: var(--gray-100);
+  outline: none;  
+}
+
+.taskAddInput:focus {
+  border-color: var(--purple-200);
+}

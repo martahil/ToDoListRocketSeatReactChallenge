@@ -1,6 +1,7 @@
 import { Header } from "./components/Header"
 import { Input } from "./components/Input"
 
+import styles from './App.module.css'
 import './global.css'
 
 function App() {
@@ -10,7 +11,9 @@ function App() {
       <Header />
 
       <section>
-        <Input />
+        <div className={styles.createTaskDiv}>
+          <Input className={styles.taskAddInput}/>
+        </div>
       </section>
     </main>
   )

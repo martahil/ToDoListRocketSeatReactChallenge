@@ -1,0 +1,39 @@
+.boardHeader {
+  width: 46rem;
+  margin: 0 auto;
+}
+
+.createdAndCompletedTasks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5625rem;
+  height: 1.1874rem;
+  margin-bottom: 1.5rem;
+}
+
+.createdTasksDiv,
+.completedTasksDiv {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.createdTasksTxt {
+  color: var(--blue-100);
+  margin-right: 0.75rem;
+}
+
+.completedTasksTxt {
+  color: var(--purple-100);
+  margin-right: 0.75rem;
+}
+
+.createdTasksCounter,
+.completedTasksCounter {
+  color: var(--gray-300);
+  font-size: 0.75rem;
+  border-radius: 999px;
+  background-color: var(--gray-400);
+  padding: 0.15625rem 0.5rem;
+}

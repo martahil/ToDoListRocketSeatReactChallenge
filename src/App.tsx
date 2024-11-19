@@ -4,6 +4,7 @@ import { Input } from "./components/Input"
 import styles from './App.module.css'
 import './global.css'
 import { Button } from "./components/Button"
+import { PlusCircle } from "phosphor-react"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Input className={styles.taskAddInput} />
           <Button className={styles.createBtn}>
             Create
+            <PlusCircle size={16} color="#f2f2f2" weight="bold" />
           </Button>
         </div>
       </section>

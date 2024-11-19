@@ -24,3 +24,30 @@
 .taskAddInput:focus {
   border-color: var(--purple-200);
 }
+
+.createBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.3125rem;
+  height: 3.25rem;
+  border-radius: 8px;
+  background: var(--blue-300);
+  color: var(--gray-100);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  padding: 1.125rem;
+  border: none;  
+}
+
+.createBtn:hover {
+  background: var(--blue-200);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.createBtn:active {
+  background: var(--blue-300);
+  transform: scale(0.98, 0.98);
+}
+

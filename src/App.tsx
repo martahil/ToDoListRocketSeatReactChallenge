@@ -5,6 +5,7 @@ import styles from './App.module.css'
 import './global.css'
 import { Button } from "./components/Button"
 import { PlusCircle } from "phosphor-react"
+import { TasksBoardHeader } from "./components/TasksBoardHeader"
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
             <PlusCircle size={16} color="#f2f2f2" weight="bold" />
           </Button>
         </div>
+
+        <TasksBoardHeader />
       </section>
     </main>
   )

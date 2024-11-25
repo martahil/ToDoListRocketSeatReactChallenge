@@ -1,6 +1,7 @@
 .createTaskDiv {
   display: flex;
-  justify-content: center;
+  place-items: center;
+  /* justify-content: center; */
   gap: 0.625rem;
   transform: translateY(-50%);
   width: 46rem;

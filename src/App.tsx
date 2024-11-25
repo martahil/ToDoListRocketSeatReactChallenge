@@ -10,6 +10,7 @@ import { useState } from "react"
 
 import styles from './App.module.css'
 import './global.css'
+import { Empty } from "./components/Empty"
 
 export interface ITask {
   id: number
@@ -94,7 +95,7 @@ function App() {
               ))}
             </div>
           ) : (
-            <h1>This is an Empty component test</h1>
+            <Empty />
           )}
         </div>
       </section>

@@ -16,3 +16,14 @@
 
   --red-100: #e25858;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--gray-600);
+  --webkit-font-smoothing: antialiased;
+}

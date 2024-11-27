@@ -1,4 +1,5 @@
 import { ClipboardText } from 'phosphor-react'
+
 import styles from './Empty.module.css'
 
 export function Empty() {

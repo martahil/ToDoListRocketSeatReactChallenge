@@ -1,16 +1,15 @@
 import { Header } from "./components/Header"
 import { Input } from "./components/Input"
 import { Button } from "./components/Button"
-import { PlusCircle } from "phosphor-react"
 import { TasksBoardHeader } from "./components/TasksBoardHeader"
 import { TaskItem } from "./components/TaskItem"
-
+import { Empty } from "./components/Empty"
+import { PlusCircle } from "phosphor-react"
 
 import { useState } from "react"
 
 import styles from './App.module.css'
 import './global.css'
-import { Empty } from "./components/Empty"
 
 export interface ITask {
   id: number
@@ -64,7 +63,7 @@ function App() {
     <main>
       <Header />
 
-      <section>
+      <section className={styles.content}>
         <div className={styles.createTaskDiv}>
           <Input
             onChange={(e) => setInputValue(e.target.value)}

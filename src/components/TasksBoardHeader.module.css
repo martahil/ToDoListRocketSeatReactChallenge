@@ -1,15 +1,8 @@
-.boardHeader {
-  width: 46rem;
-  margin: 0 auto;
-}
-
 .createdAndCompletedTasks {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-bottom: 1.5625rem;
   height: 1.1874rem;
-  margin-bottom: 1.5rem;
 }
 
 .createdTasksDiv,
@@ -36,4 +29,6 @@
   border-radius: 999px;
   background-color: var(--gray-400);
   padding: 0.15625rem 0.5rem;
+  text-align: center;
+  vertical-align: middle;
 }

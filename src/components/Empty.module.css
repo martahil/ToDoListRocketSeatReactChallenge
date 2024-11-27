@@ -13,7 +13,8 @@
 
 .grayLine {
   border-bottom: 1px solid var(--gray-400);
-  width: 46rem;
+  max-width: 46rem;
+  width: 100%;
   margin-bottom: 4rem;
 }
 
@@ -28,4 +29,3 @@
   margin-top: 1rem;
   margin-bottom: 0.4rem;
 }
-

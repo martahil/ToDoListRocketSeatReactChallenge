@@ -7,13 +7,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  width: 46rem;
   margin-bottom: 0.75rem;
-}
-
-.checkboxAndTxt {
-  display: flex;
-  align-items: center;
 }
 
 .individualTask label {
@@ -28,6 +22,11 @@
   font-family: 'Inter', sans-serif;
   font-size: 0.875rem;
   color: var(--gray-100);
+}
+
+.checkboxAndTxt {
+  display: flex;
+  align-items: center;
 }
 
 .checkbox {
@@ -49,7 +48,7 @@
 
 .checkbox-unchecked:hover {
   background-color: rgba(30, 111, 157, 0.2);
-  color: #0063BF;
+  color: var(--blue-400);
   cursor: pointer;
 }
 
@@ -69,7 +68,6 @@
   font-size: 0.875rem;
   line-height: 140%;
   user-select: none;
-  transition: 0.2 all;
   text-align: justify;
   padding: 0 1.25rem;
   word-break: break-word;
